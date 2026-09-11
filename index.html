@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My App</title>
+
+  <meta name="description" content="Official app information and installation page.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #202124;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      object-fit: cover;
+    }
+
+    .app-info h1 {
+      font-size: 25px;
+      margin-bottom: 6px;
+    }
+
+    .developer {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .install {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background: #1a73e8;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .install:hover {
+      opacity: 0.9;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 25px 0 12px;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .screenshots {
+      display: flex;
+      overflow-x: auto;
+      gap: 12px;
+      padding-bottom: 10px;
+    }
+
+    .screenshots img {
+      width: 180px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 12px;
+      flex-shrink: 0;
+    }
+
+    .info-box {
+      background: #f7f7f7;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+
+      <!-- Replace this with your own logo -->
+      <img
+        class="logo"
+        src="https://via.placeholder.com/160"
+        alt="App logo"
+      >
+
+      <div class="app-info">
+        <h1>My App</h1>
+        <div class="developer">My App Ltd</div>
+      </div>
+
+    </header>
+
+    <main class="content">
+
+      <!-- Installation button -->
+      <a
+        class="install"
+        href="#"
+        onclick="alert('Add your legitimate app download or installation link here.'); return false;"
+      >
+        INSTALL APP
+      </a>
+
+      <h2>About this app</h2>
+
+      <p>
+        Welcome to the official application page.
+        Here you can find information about the application,
+        its features and supported devices.
+      </p>
+
+      <h2>Screenshots</h2>
+
+      <div class="screenshots">
+
+        <img
+          src="https://via.placeholder.com/180x320"
+          alt="App screenshot 1"
+        >
+
+        <img
+          src="https://via.placeholder.com/180x320"
+          alt="App screenshot 2"
+        >
+
+        <img
+          src="https://via.placeholder.com/180x320"
+          alt="App screenshot 3"
+        >
+
+      </div>
+
+      <h2>App information</h2>
+
+      <div class="info-box">
+        <p><strong>Version:</strong> 1.0</p>
+        <p><strong>Updated:</strong> September 2026</p>
+        <p><strong>Platform:</strong> Android</p>
+      </div>
+
+    </main>
+
+    <footer>
+      © 2026 My App. All rights reserved.
+    </footer>
+
+  </div>
+
+</body>
+</html>
